@@ -40,6 +40,7 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/nginx-proxy:1.0
 
-
-  # EC2에 docker-compose.yml, 설정파일등 copy, 도커컴포즈 작동
-  #cd:
+  # 실습
+  # EC2에 docker-compose.yml, 설정파일등 copy, 
+  # 도커컴포즈 SHH 명령어 실행  
+  cd:
